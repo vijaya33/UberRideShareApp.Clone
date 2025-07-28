@@ -1,0 +1,6 @@
+@UberRideShareApp.Frontend.Clone.Server_HostAddress = http://localhost:5237
+
+GET {{UberRideShareApp.Frontend.Clone.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

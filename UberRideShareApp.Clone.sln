@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UberRideShareApp.Clone", "UberRideShareApp.Clone\UberRideShareApp.Clone.csproj", "{4CCEEC87-F660-4A93-B4D3-E121E9DCC819}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "uberrideshareapp.frontend.clone.client", "UberRideShareApp.Frontend.Clone\uberrideshareapp.frontend.clone.client\uberrideshareapp.frontend.clone.client.esproj", "{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UberRideShareApp.Frontend.Clone.Server", "UberRideShareApp.Frontend.Clone\UberRideShareApp.Frontend.Clone.Server\UberRideShareApp.Frontend.Clone.Server.csproj", "{E500070B-208D-4420-AC7E-F2C8D83B3BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UberRideShareApp.Clone.Tests", "UberRideShareApp.Clone.Tests\UberRideShareApp.Clone.Tests.csproj", "{6FA80ADA-D68B-4E58-9EF4-C8E2626BF515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCEEC87-F660-4A93-B4D3-E121E9DCC819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCEEC87-F660-4A93-B4D3-E121E9DCC819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCEEC87-F660-4A93-B4D3-E121E9DCC819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCEEC87-F660-4A93-B4D3-E121E9DCC819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA740388-88BD-EEBA-BE5F-ACBC4AD841CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E500070B-208D-4420-AC7E-F2C8D83B3BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E500070B-208D-4420-AC7E-F2C8D83B3BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E500070B-208D-4420-AC7E-F2C8D83B3BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E500070B-208D-4420-AC7E-F2C8D83B3BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA80ADA-D68B-4E58-9EF4-C8E2626BF515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA80ADA-D68B-4E58-9EF4-C8E2626BF515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA80ADA-D68B-4E58-9EF4-C8E2626BF515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA80ADA-D68B-4E58-9EF4-C8E2626BF515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E864D18-BAE0-4FBE-86B1-ADCD419CCFAF}
+	EndGlobalSection
+EndGlobal
