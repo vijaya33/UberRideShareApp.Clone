@@ -13,13 +13,15 @@ namespace UberRideShareApp.Clone.Controllers
         [HttpPut("/api/drivers/vehicle")]
         Task<ActionResult<VehicleDto>> UpdateVehicleInfo(UpdateVehicleRequest request);
 
-        // set driver online / offline (availability) 
+        // Set driver online / offline (availability) 
+        // Returns status code 200 OK on success.
         [HttpPost("api/drivers/{id}/status")]
-        Task<ActionResult> UpdateDriverStatus(Guid id, DriverStatusUpdateRequest request);
+        Task<IActionResult> UpdateDriverStatus(Guid id, DriverStatusUpdateRequest request);
 
         // Update current location. 
-        [HttpPost("/api/drivers/{id}/location)"]
-        Task<ActionResultLocationUpdateRequest>> UpdateLocation(Guid id, LocationUpdateRequest request);
+        // Returns status code 200 OK on success. 
+        [HttpPost("/api/drivers/{id}/location")]
+        Task<IActionResult> UpdateLocation(Guid id, LocationUpdateRequest request);
     }
 
     }

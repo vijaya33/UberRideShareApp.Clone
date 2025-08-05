@@ -19,6 +19,7 @@ namespace UberRideShareApp.Clone.Controllers
         // Update passenger profile info
         [HttpPost("/api/passengers/{id}")]
         Task<ActionResult<PassengerDto>> UpdateProfile(Guid id, UpdatePassengerRequest request);
+
     }
 }
 
