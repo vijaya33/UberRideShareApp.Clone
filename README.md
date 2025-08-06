@@ -45,6 +45,6 @@ High level Project structure is as folows:
   ...
 
 
-License This project is open source and available under MIT License.
+License: This project is open source and available under MIT License.
 
-Built By Vijaya Laxmi Kumbaji - Cloud Solutions Architect | Lead .NET Developer | Full stack Developer / Python AI/ML Developer |
+Developed / Built By: Vijaya Laxmi Kumbaji - Cloud Solutions Architect | Lead .NET Developer | Full stack Developer / Python AI/ML Developer |
