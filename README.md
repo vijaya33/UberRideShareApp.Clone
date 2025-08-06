@@ -16,18 +16,28 @@ High level Project structure is as folows:
     DriverController.cs
   
   /Models
+  
     Passenger.cs
+  
     Driver.cs
+    
     Ride.cs
+    
     Vehicle.cs
+    
     PaymentMethod.cs
+    
     DTOs...
   
   /Data
+    
     AppDbContext.cs
+    
     DbSeeder.cs      // Seed sample data on startup
   
   /Services
+    
+    
     MatchingService.cs
     ...
   Program.cs
