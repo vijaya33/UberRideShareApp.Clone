@@ -3,7 +3,7 @@ using UberRideShareApp.Clone.Models;
 
 namespace UberRideShareApp.Clone.Interfaces
 {
-    public interface IPaymentPerferences
+    public interface IPaymentPreferences
     {
         // Add a payment method
         [HttpPost("/api/passengers/{id}/payment-methods")]

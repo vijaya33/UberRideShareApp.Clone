@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UberRideShareApp.Clone.Interfaces;
+using UberRideShareApp.Clone.Models;
 
 namespace UberRideShareApp.Clone.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PaymentPreferencesController : ControllerBase, IPaymentPerferences
+    public class PaymentPreferencesController : ControllerBase, IPaymentPreferences
     {
         // Add a payment method
         [HttpPost("/api/passengers/{id}/payment-methods")]
