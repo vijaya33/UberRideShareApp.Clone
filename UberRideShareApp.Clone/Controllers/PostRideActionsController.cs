@@ -6,7 +6,22 @@ namespace UberRideShareApp.Clone.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PostRideActionsController : ControllerBase, IRideHandlingService
+    public class PostRideActionsController : ControllerBase, IRideHandlingService, IPostRideActions
+    {
+        // Rate the driver
+        [HttpPost("/api/rides/{rideId}/rate-driver")]
+        public Task<IActionResult> RateDriver(Guid rideId, RateDriverRequest request)
+        {
+            // Implementation to rate the driver
+            throw new NotImplementedException();
+        }
+        // Tip the driver
+        [HttpPost("/api/rides/{rideId}/tip-driver")]
+        public Task<IActionResult> TipDriver(Guid rideId, TipDriverRequest request)
+        {
+            // Implementation to tip the driver
+            throw new NotImplementedException();
+        }
     {
         // Get list of assumed or available ride requests.
         [HttpGet("/api/drivers/{id}/rides/assigned")]
