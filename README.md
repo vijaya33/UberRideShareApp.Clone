@@ -8,4 +8,4 @@ Contributing to this project Pull requests and feedback are welcome. Please fork
 
 License This project is open source and available under MIT License.
 
-Built By Vijaya Laxmi Kumbaji Cloud Architect | Senior .NET Developer | Lead .NET Developer | Full stack Developer / Python AI/ML Developer |
+Built By Vijaya Laxmi Kumbaji - Cloud Solutions Architect | Lead .NET Developer | Full stack Developer / Python AI/ML Developer |
