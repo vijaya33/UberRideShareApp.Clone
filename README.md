@@ -9,9 +9,12 @@ Contributing to this project Pull requests and feedback are welcome. Please fork
 High level Project structure is as folows: 
 
 /UberApi
+
   /Controllers
+
     PassengerController.cs
     DriverController.cs
+  
   /Models
     Passenger.cs
     Driver.cs
@@ -19,9 +22,11 @@ High level Project structure is as folows:
     Vehicle.cs
     PaymentMethod.cs
     DTOs...
+  
   /Data
     AppDbContext.cs
     DbSeeder.cs      // Seed sample data on startup
+  
   /Services
     MatchingService.cs
     ...
